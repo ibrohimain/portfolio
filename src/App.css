@@ -1,0 +1,47 @@
+.logo {
+    font-family: "Space Mono", monospace;
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(./assets/cosmo.gif);
+    background-size: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: "Assistant", sans-serif;
+}
+
+
+.header {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 6px rgba(152, 33, 173, 0.5);
+}
+
+.custom-shadow-hover:hover {
+    box-shadow: 0 10px 15px rgba(152, 33, 173, 0.7);
+}
+
+.link {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
